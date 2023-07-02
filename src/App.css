@@ -1,0 +1,64 @@
+.optimize{
+    background: url("../src/assets/images/bg_dark.png");
+        background-repeat: no-repeat;
+        background-size:  cover;
+        background-position: top right;
+        height: 310px;
+        
+}
+
+.getouch{
+    background: url("../src//assets//images/get-in-touch-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-bg{
+    background-image: url("../src//assets//images/footer-bg.jpg");
+    background-repeat: no-repeat;
+        background-size:  cover;
+        display: flex;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+}
+
+.url-bg{
+    background: url("../src/assets/images/bg_dark.png");
+        background-repeat: no-repeat;
+        background-size:  cover;
+        background-position: top right;
+        height: 450px !important;
+        display: grid !important;
+        place-items: center !important;
+}
+@media screen and (max-width: 1000px) {
+    .footer-bg {
+        flex-direction: flex;
+        width: 100%;
+    }
+
+    .footer-top {
+        width: 50%;
+        display: inline-table;
+    }
+
+    .footer-bottom {
+        width: 50%;
+        display: inline-table;
+    }
+}
+
+
+    
+

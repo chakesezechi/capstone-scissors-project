@@ -1,0 +1,12 @@
+.hero-subtext {
+    max-width: 50%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .hero-subtext {
+        max-width: 90%;
+    }
+}

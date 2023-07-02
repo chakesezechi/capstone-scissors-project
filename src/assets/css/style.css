@@ -1,0 +1,27 @@
+.hero{
+    background: url('../images/hero_section.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero__inner{
+    background: url('../images/hero__inner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.revo, .trim{
+    background: url('../images/bg_dark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}

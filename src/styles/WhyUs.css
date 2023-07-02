@@ -1,0 +1,59 @@
+.why-us {
+    width: 100%;
+    padding: 7rem 7rem;
+    overflow: hidden;
+
+    display: flex;
+    gap: 30px;
+}
+
+.why-us-element {
+    width: 100%;
+}
+
+.why-choose {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding: 7rem 7rem;
+}
+
+.why-choose-head {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .why-us {
+        padding: 40px 20px;
+
+        flex-direction: column;
+    }
+
+    .why-us-head {
+        width: 100%;
+    }
+
+
+    .why-us-element {
+        display: inline-table;
+    }
+
+    .why-us-element>div {
+        display: inline-table;
+    }
+
+    .why-choose {
+        width: 100%;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .why-choose-head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+/* padding: 7rem 7rem; */
+
+.price {
+    padding: 7rem 7rem;
+}
+
+.price-subtext {
+    width: 50%;
+}
+
+.pricing-container {
+    width: 100%;
+}
+
+.pricing {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .price {
+        padding: 40px 20px;
+    }
+
+    .price-subtext {
+        width: 80%;
+    }
+
+    .pricing-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pricing {
+        width: 70%;
+        padding: 2rem 20px;
+    }
+
+
+}
